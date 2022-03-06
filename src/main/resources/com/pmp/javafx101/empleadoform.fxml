@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="329.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pmp.javafx101.EmpleadoformController">
+   <children>
+      <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="90.0" text="Empleado" textAlignment="CENTER">
+         <font>
+            <Font name="Baskerville Old Face" size="20.0" />
+         </font>
+      </Label>
+      <HBox maxWidth="1.7976931348623157E308" prefWidth="200.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="123.0" text="Nombres">
+               <HBox.margin>
+                  <Insets right="8.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNombres" prefHeight="25.0" prefWidth="401.0" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="18.0" layoutY="54.0" maxWidth="1.7976931348623157E308" prefWidth="200.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="123.0" text="Apellidos">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+               <padding>
+                  <Insets right="8.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="txtApellidos" prefHeight="25.0" prefWidth="400.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="6.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="83.0" maxWidth="1.7976931348623157E308" prefHeight="11.0" prefWidth="600.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="123.0" text="Correo">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+               <padding>
+                  <Insets right="8.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="txtEmail" prefHeight="25.0" prefWidth="402.0" />
+         </children>
+         <opaqueInsets>
+            <Insets top="4.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="6.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="112.0" maxWidth="1.7976931348623157E308" prefHeight="11.0" prefWidth="600.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="123.0" text="Teléfono">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+               <padding>
+                  <Insets right="8.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="txtTelefono" prefHeight="25.0" prefWidth="402.0" />
+         </children>
+         <opaqueInsets>
+            <Insets top="4.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="6.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="141.0" maxWidth="1.7976931348623157E308" prefHeight="11.0" prefWidth="600.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="123.0" text="Dirección">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+               <padding>
+                  <Insets right="8.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="txtDireccion" prefHeight="25.0" prefWidth="402.0" />
+         </children>
+         <opaqueInsets>
+            <Insets top="4.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="6.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="170.0" maxWidth="1.7976931348623157E308" prefHeight="11.0" prefWidth="600.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="123.0" text="Cargo">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+               <padding>
+                  <Insets right="8.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="txtCargo" prefHeight="25.0" prefWidth="402.0" />
+         </children>
+         <opaqueInsets>
+            <Insets top="4.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="6.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="199.0" maxWidth="1.7976931348623157E308" prefHeight="11.0" prefWidth="600.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="123.0" text="Género">
+               <HBox.margin>
+                  <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+               <padding>
+                  <Insets right="8.0" />
+               </padding>
+            </Label>
+            <RadioButton fx:id="rdbGeneroFemenino" mnemonicParsing="false" selected="true" text="Masculino">
+               <toggleGroup>
+                  <ToggleGroup fx:id="genero" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="rdbGeneroMasculino" mnemonicParsing="false" text="Femenino" toggleGroup="$genero">
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </RadioButton>
+         </children>
+         <opaqueInsets>
+            <Insets top="4.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="230.0" maxWidth="1.7976931348623157E308" prefHeight="11.0" prefWidth="600.0">
+         <opaqueInsets>
+            <Insets top="4.0" />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" prefHeight="54.0" prefWidth="564.0">
+         <children>
+            <Button fx:id="btnConfirmar" mnemonicParsing="false" onAction="#btnConfirmar_click" text="Confirmar" />
+            <Button fx:id="btnCancelar" mnemonicParsing="false" onAction="#btnCancelar_click" text="Cancelar">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets top="8.0" />
+   </padding>
+</VBox>
